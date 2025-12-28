@@ -5,7 +5,7 @@ class ifELse {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your number: ");
         int month = sc.nextInt();
-        String season = fool;
+        String season = null;
 
         if (month == 12 || month == 1 || month == 2)
             season = "Winter";
